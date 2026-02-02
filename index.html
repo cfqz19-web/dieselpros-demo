@@ -7,174 +7,162 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2575.2">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1">&lt;!doctype html&gt;</p>
-<p class="p1">&lt;html lang="es"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="utf-8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;DIESEL PROS — Muestra (adaptación referencia)&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="description" content="Taller especializado en reparación y mantenimiento de motores diésel. Muestra estática adaptada al formato de referencia." /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>:root{--accent:#f2b705;--dark:#0b0b0c;--muted:#666}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>*{box-sizing:border-box}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#111}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>a{color:inherit}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>header{background:#fff;display:flex;align-items:center;justify-content:space-between;padding:18px 28px;border-bottom:1px solid #eee}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.logo{display:flex;align-items:center;gap:12px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.logo img{height:44px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>nav{display:flex;gap:18px;align-items:center}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>nav a{font-weight:600;color:var(--muted);text-decoration:none}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>/* Hero estilo referencia */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.hero{position:relative;display:grid;grid-template-columns:1fr 420px;gap:20px;align-items:center;padding:40px 6%;background:linear-gradient(90deg, rgba(0,0,0,0.55), rgba(0,0,0,0.25)), url('/mnt/data/WhatsApp Image 2026-02-01 at 17.06.26.jpeg') center/cover no-repeat;color:#fff}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.hero .eyebrow{background:rgba(0,0,0,0.45);display:inline-block;padding:6px 12px;border-radius:6px;font-weight:700;color:var(--accent)}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.hero h1{font-size:42px;margin:14px 0 10px;letter-spacing:1px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.hero p{margin:0 0 18px;color:#fffde8;max-width:640px}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.contact-card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,0.18);color:#111}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.contact-card h3{margin:0 0 8px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.contact-card a{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:8px;background:var(--accent);color:#000;font-weight:700;text-decoration:none}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.section{padding:48px 6%}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.service{background:#fff;border-radius:10px;padding:18px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.service h4{margin:0 0 8px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.why{display:flex;gap:18px;align-items:flex-start}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.why img{width:220px;border-radius:8px;object-fit:cover}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.gallery img{width:100%;height:160px;object-fit:cover;border-radius:6px}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>footer{background:#0f1720;color:#dbeafe;padding:28px 6%}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.footer-grid{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.small{font-size:13px;color:#cbd5e1}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>/* responsive */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>@media(max-width:980px){.hero{grid-template-columns:1fr; padding:28px 4%}.hero h1{font-size:32px}.services-grid{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)} }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>@media(max-width:520px){.services-grid{grid-template-columns:1fr}}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="logo"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="/mnt/data/IMG_2076.PNG" alt="Diesel Pros logo" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="font-weight:800;letter-spacing:1px"&gt;DIESEL PROS&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="font-size:13px;color:var(--muted)"&gt;Expertos en Diésel&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#servicios"&gt;Servicios&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#equipo"&gt;Equipo&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#galeria"&gt;Galería&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#contacto"&gt;Contacto&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="hero"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="eyebrow"&gt;TALLERES ESPECIALIZADOS&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Reparación y mantenimiento de motores diésel de servicio pesado&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Diagnóstico electrónico, overhauls completos, sistemas de inyección, regeneración de DPF, soldadura industrial y servicio integral para flotas, maquinaria y vehículos pesados. +50 años de experiencia combinada.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="display:flex;gap:12px;align-items:center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="tel:+526646478057" style="display:inline-block;padding:12px 18px;border-radius:8px;background:#111;color:#fff;text-decoration:none;font-weight:700"&gt;Llámanos: (664) 647 8057&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://wa.me/526646478057" style="display:inline-block;padding:12px 18px;border-radius:8px;background:transparent;border:2px solid #fff;color:#fff;text-decoration:none;font-weight:700"&gt;WhatsApp&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;aside class="contact-card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h3&gt;Contacto rápido&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="small"&gt;Calle México Lindo #35, Zona Río 3RA Etapa, Tijuana, BC&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="small"&gt;administracion@dieselpros.com.mx&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="tel:+526646478057"&gt;📞 (664) 647 8057&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/aside&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="servicios" class="section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Servicios&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="services-grid" style="margin-top:18px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="service"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;Diagnóstico electrónico&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Análisis con software especializado (J1939, J1708, CANBUS) para detectar fallas y optimizar rendimiento.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="service"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;Reparación de combustible&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Mantenimiento y reparación de inyectores, bombas y sistemas de combustible.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="service"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;Mantenimiento Preventivo&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Inspecciones de 90 días y anuales homologadas con requerimientos DOT.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="service"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;Overhaul completo&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Reconstrucción total de motores y reparaciones "bumper to bumper".&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="service"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;Sistemas de regeneración&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Programación de ACM y mantenimiento a DPF, DOC y SCR.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="service"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;Rescate vial y arrastre&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Servicio de arrastre y atención de emergencias con equipo propio.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="equipo" class="section" style="background:linear-gradient(180deg,#fff,#f7fafc)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Por qué elegirnos&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="why" style="margin-top:18px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;strong&gt;Experiencia:&lt;/strong&gt; Técnicos certificados y más de 50 años de experiencia combinada.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;strong&gt;Equipos:&lt;/strong&gt; Herramientas especializadas y maquinaria para diagnósticos precisos.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;strong&gt;Mercados:&lt;/strong&gt; Flotas, minería, construcción, agrícola, marino y generación de energía.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="/mnt/data/WhatsApp Image 2026-02-01 at 17.06.27.jpeg" alt="Taller Diesel Pros" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="galeria" class="section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Galería del taller&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="gallery" style="margin-top:16px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;!-- imágenes: se pueden reemplazar por las que subiste --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="/mnt/data/WhatsApp Image 2026-02-01 at 17.06.26 (1).jpeg" alt="foto1" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="/mnt/data/WhatsApp Image 2026-02-01 at 17.06.26 (2).jpeg" alt="foto2" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="/mnt/data/WhatsApp Image 2026-02-01 at 17.06.26 (3).jpeg" alt="foto3" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="/mnt/data/WhatsApp Image 2026-02-01 at 17.06.26 (4).jpeg" alt="foto4" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Clientes y alianzas&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="small" style="margin-top:8px"&gt;Hemos trabajado con empresas como Coca‑Cola, Sitrak, CESPT, Miller, Gen y Minera Frisco.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="margin-top:14px;display:flex;gap:12px;flex-wrap:wrap"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="/mnt/data/logo_coca.png" style="height:48px;opacity:0.9" alt="coca" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="/mnt/data/logo_sitrak.png" style="height:48px;opacity:0.9" alt="sitrak" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer id="contacto"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="footer-grid"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;DIESEL PROS&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="small"&gt;Calle México Lindo #35, Zona Río 3RA Etapa, CP 22226, Tijuana, Baja California.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="small"&gt;administracion@dieselpros.com.mx&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="small"&gt;Tel. (664) 647 8057&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="max-width:360px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;Horario&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="small"&gt;Lun-Vie 8:00 - 18:00&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p style="margin-top:10px"&gt;&lt;a href="https://wa.me/526646478057" style="background:#fff;padding:10px 12px;border-radius:8px;color:#000;text-decoration:none;font-weight:700"&gt;Abrir WhatsApp&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="margin-top:18px;color:#93c5fd;font-size:12px"&gt;Muestra estática: adaptada al formato de referencia Voltaic, con contenido de la página actual.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<p class="p1"><span class="s1">&lt;&lt;!doctype html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="es"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta charset="utf-8"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;title&gt;DIESEL PROS | Taller Especializado Diésel&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta name="description" content="Taller especializado en motores diésel de servicio pesado en Tijuana. Diagnóstico, reparación y mantenimiento profesional."&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>body {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-family: Arial, Helvetica, sans-serif;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: #111;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>header {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>display: flex;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>justify-content: space-between;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>align-items: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 20px 40px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid #eee;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: #fff;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>nav a {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-left: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>text-decoration: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: bold;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: #444;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.hero {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)),</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>url("images/hero.jpg") center/cover no-repeat;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: white;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 80px 40px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.hero h1 {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 42px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-bottom: 10px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.hero p {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>max-width: 600px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 18px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.cta {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-top: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>display: inline-block;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: #f2b705;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: #000;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 14px 22px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>border-radius: 6px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>text-decoration: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: bold;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.section {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 60px 40px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.services {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>display: grid;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>gap: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.service {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>border-radius: 8px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: #f7f7f7;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.gallery {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>display: grid;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>gap: 10px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.gallery img {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>width: 100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>height: 160px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>object-fit: cover;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>border-radius: 6px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>footer {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: #111;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: #ddd;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 40px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>footer p {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin: 6px 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 14px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;header&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;strong&gt;DIESEL PROS&lt;/strong&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;nav&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="#servicios"&gt;Servicios&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="#galeria"&gt;Galería&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="#contacto"&gt;Contacto&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/nav&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/header&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section class="hero"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Especialistas en motores diésel&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>Reparación, diagnóstico y mantenimiento de motores diésel de servicio pesado.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>Atención profesional para flotas, maquinaria y transporte.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;a class="cta" href="tel:+526646478057"&gt;Llámanos: (664) 647 8057&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section id="servicios" class="section"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Servicios&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="services"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="service"&gt;Diagnóstico electrónico&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="service"&gt;Reparación de motores&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="service"&gt;Mantenimiento preventivo&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="service"&gt;Overhaul completo&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="service"&gt;Sistemas DPF y regeneración&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="service"&gt;Rescate vial&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section id="galeria" class="section"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Galería&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="gallery"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;img src="images/foto1.jpg"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;img src="images/foto2.jpg"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;img src="images/foto3.jpg"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;img src="images/foto4.jpg"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;footer id="contacto"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;p&gt;&lt;strong&gt;DIESEL PROS&lt;/strong&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;p&gt;Calle México Lindo #35, Tercera Etapa del Río, Tijuana, BC&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;p&gt;Tel: (664) 647 8057&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/footer&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
 </body>
 </html>
